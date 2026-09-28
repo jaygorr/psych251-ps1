@@ -5,3 +5,4 @@
 *.html
 .secrets
 hello_files/
+!docs/*.html
