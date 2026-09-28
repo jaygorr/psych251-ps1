@@ -13,3 +13,15 @@ summary(PlantGrowth)
 ```{r}
 boxplot(weight ~ group, data = PlantGrowth)
 ```
+
+```{r}
+library(ggplot2)
+
+ggplot(PlantGrowth, aes(x = group, y = weight)) +
+  geom_boxplot() +
+  labs(
+    title = "Plant weight by treatment group",
+    x = "Group",
+    y = "Dried weight"
+  )
+```
