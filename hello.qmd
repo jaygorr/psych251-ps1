@@ -1,0 +1,11 @@
+---
+title: "hello.qmd"
+format: html
+editor: visual
+---
+
+## Test for Psych251
+
+```{r}
+summary(PlantGrowth)
+```
