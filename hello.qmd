@@ -9,3 +9,7 @@ editor: visual
 ```{r}
 summary(PlantGrowth)
 ```
+
+```{r}
+boxplot(weight ~ group, data = PlantGrowth)
+```
